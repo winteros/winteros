@@ -8,8 +8,8 @@ setfont cyr-sun16
 read -p "Пауза 3 ceк." -t 3
 echo '2.4.2 Форматирование дисков'
 mkfs.ext2  /dev/sda1 -L boot
-mkfs.ext4  /dev/sda2 -L root
-mkswap /dev/sda3 -L swap
+mkfs.ext4  /dev/sda3 -L root
+mkswap /dev/sda2 -L swap
 mkfs.ext4  /dev/sda4 -L home
 echo '2.4.3 Монтирование дисков'
 read -p "Пауза 3 ceк." -t 3
