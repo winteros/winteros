@@ -34,5 +34,5 @@ read -p "Пауза 3 ceк." -t 3
 mount -o bind /dev /mnt/dev
 mount -t proc none /mnt/proc
 pacman -S wget --noconfirm
-wget https://github.com/winteros/arch_2.sh
+wget https://github.com/winteros/winteros.git
 sh arch_2.sh
