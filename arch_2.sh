@@ -1,4 +1,6 @@
 #!/bin/bash
+pacman -S networkmanager
+systemctl enable NetworkManager
 echo "winterosarch" > /etc/hostname
 ln -svf /usr/share/zoneinfo/Asia/Omsk /etc/localtime
 echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
